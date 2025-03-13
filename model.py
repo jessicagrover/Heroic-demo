@@ -6,21 +6,21 @@ import pickle
 
 import pandas as pd
 
-# Creating a sample dataset
-# data = {
-#     "experience": ["five", "two", "seven", "three", "ten", "eleven", np.nan],
-#     "test_score": [8, 7, 6, 10, 9, 7, np.nan],
-#     "interview_score": [9, 6, 7, 10, 6, 8, 7],
-#     "salary": [50000, 25000, 60000, 35000, 80000, 85000, 45000]
-# }
+Creating a sample dataset
+data = {
+    "experience": ["five", "two", "seven", "three", "ten", "eleven", np.nan],
+    "test_score": [8, 7, 6, 10, 9, 7, np.nan],
+    "interview_score": [9, 6, 7, 10, 6, 8, 7],
+    "salary": [50000, 25000, 60000, 35000, 80000, 85000, 45000]
+}
 
-# # Convert dictionary to DataFrame
-# df = pd.DataFrame(data)
+# Convert dictionary to DataFrame
+df = pd.DataFrame(data)
 
-# # Save to CSV
-# df.to_csv("hiring.csv", index=False)
+# Save to CSV
+df.to_csv("hiring.csv", index=False)
 
-# print("hiring.csv file created successfully!")
+print("hiring.csv file created successfully!")
 
 dataset = pd.read_csv('hiring.csv')
 
